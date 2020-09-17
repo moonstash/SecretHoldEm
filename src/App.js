@@ -203,7 +203,7 @@ class App extends React.Component {
             myWalletBalanceUscrt: 0,
             myWalletBalance: (
               <span>
-                (No funds - Get some{" "}
+                (No funds - Copy your seed: {this.state.mnemonic}  - Get some{" "}
                 <a
                   href="https://secretswap.io"
                   rel="noopener noreferrer"
