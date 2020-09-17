@@ -17,7 +17,7 @@ import "react-notifications/lib/notifications.css";
 const PokerSolver = require("pokersolver").Hand;
 
 const nf = new Intl.NumberFormat("en-US", { maximumFractionDigits: 6 });
-const codeId = 4;
+const codeId = 2;
 console.log("Code ID:", codeId);
 const refreshTableStateInterval = 2000;
 
