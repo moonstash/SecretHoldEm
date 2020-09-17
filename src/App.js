@@ -203,13 +203,13 @@ class App extends React.Component {
             myWalletBalanceUscrt: 0,
             myWalletBalance: (
               <span>
-                (No funds - Go swap!{" "}
+                (No funds - Get some{" "}
                 <a
                   href="https://secretswap.io"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  from the faucet
+                  go swap!
                 </a>
                 )
               </span>
