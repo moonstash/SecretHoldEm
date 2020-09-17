@@ -203,17 +203,7 @@ class App extends React.Component {
             myWalletBalanceUscrt: 0,
             myWalletBalance: (
               <span>
-                (No funds - Go get some{" "}
-                <a
-                  href="https://faucet.pub.testnet2.enigma.co"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  from the faucet
-                </a>
-                )
-              </span>
-            ),
+                (No funds...),
           });
         } else {
           this.setState({
