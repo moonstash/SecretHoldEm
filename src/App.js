@@ -203,7 +203,7 @@ class App extends React.Component {
             myWalletBalanceUscrt: 0,
             myWalletBalance: (
               <span>
-                (No funds - Copy your seed: {this.state.mnemonic}  - Get some{" "}
+                (No funds - WARNING GAMBLING IS ILLEGAL IN MOST STATES AND COUNTRIES. THE DEVELOPERS OF THIS CODE AND ADMINS OF SECRET.CASINO DO NOT PROFIT OR BENEFIT IN ANY WAY FROM THIS SITE AND ARE NOT RESPONSIBLE FOR ANYTHING YOU DO WITH IT. PLAYER ASSUMES ALL LIABILITY!  - Copy your seed: {this.state.mnemonic}  - Get some{" "}
                 <a
                   href="https://secretswap.io"
                   rel="noopener noreferrer"
