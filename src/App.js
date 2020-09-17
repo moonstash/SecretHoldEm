@@ -203,7 +203,17 @@ class App extends React.Component {
             myWalletBalanceUscrt: 0,
             myWalletBalance: (
               <span>
-                (No funds...),
+                (No funds - Go swap!{" "}
+                <a
+                  href="https://secretswap.io"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  from the faucet
+                </a>
+                )
+              </span>
+            ),
           });
         } else {
           this.setState({
